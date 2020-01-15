@@ -6,7 +6,7 @@ Two files:
 - chronometer.js: for the logic of the chronometer
 - main.js: for the dom manipulation
 
-## chronometer
+## chronometer.js
 
 - First, create the chronometer class, with 2 properties and then methods.
 
