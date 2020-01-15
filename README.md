@@ -10,7 +10,7 @@ Two files:
 
 - First, create the chronometer class, with 2 properties and then methods.
 
-- Use setInterval in your startClick method. Be careful while using setInterval. Inside setInterval, "this" will not refer to the object chronometer but to the global context. To fix that, either use arrow functions inside your setInterval to declare the function you want to repeat, or bind it
+- Use setInterval in your ```startClick``` method. Be careful while using ```setInterval```. Inside ```setInterval```, "this" will not refer to the object chronometer but to the global context. To fix that, either use arrow functions inside your setInterval to declare the function you want to repeat, or bind it
 
 - To stop the chronometer: use clearInterval
 
@@ -26,4 +26,4 @@ ex: in ```printSeconds``` in main.js you'll probably need the return value of ``
 
 - DOM elements also have their own logic (ex: all the buttons changes: from start to stop, from stop to start, from split to reset, from reset to split). This is not dependent on your chronometer methods (except the click events) but on classes that you have to toggle
 
-- You use setInterval on the chronometer to make sure your counter updates. You should also use it again in your printTime function, on the DOM side, so that you update the DOM every second with the right values you get from your chronometer methods.
+- You use ```setInterval``` on the chronometer to make sure your counter updates. You should also use it again in your ```printTime``` function, on the DOM side, so that you update the DOM every second with the right values you get from your chronometer methods.
