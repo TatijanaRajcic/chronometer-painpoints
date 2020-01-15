@@ -16,7 +16,8 @@ Two files:
 
 - Make sure your logic works (you can see it in the console) and that you get the type of value you need, before working on the DOM
 
-ex: in printSeconds in main.js you'll probably need the return value of chronometer.getSeconds(). So make sure this value corresponds to what you need. 
+ex: in ```printSeconds``` in main.js you'll probably need the return value of ```chronometer.getSeconds()```. So make sure this value corresponds to what you need. 
+
 **The main logic should be in chronometer.js, in main.js it's mainly about DOM manipulation, and using the data that is already ready to use**
 
 ## main.js
