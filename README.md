@@ -26,4 +26,4 @@ ex: in ```printSeconds``` in main.js you'll probably need the return value of ``
 
 - DOM elements also have their own logic (ex: all the buttons changes: from start to stop, from stop to start, from split to reset, from reset to split). This is not dependent on your chronometer methods (except the click events) but on classes that you have to toggle
 
-- You use ```setInterval``` on the chronometer to make sure your counter updates. You could use it again in your ```printTime``` function, on the DOM side, but you don't have to! 
+- You use ```setInterval``` on the chronometer to make sure your counter updates. You could use it again in your ```printTime``` function, on the DOM side, but you don't have to, if you use callback functions!
